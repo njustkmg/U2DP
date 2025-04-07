@@ -1,0 +1,11 @@
+python eval.py \
+  --model ./log/log_aoanet_ucm_0.2_rl/model-best.pth \
+  --infos_path ./log/log_aoanet_ucm_0.2_rl/infos_aoanet_ucm_0.2-best.pkl  \
+  --dump_images 0 \
+  --dump_json 1 \
+  --num_images -1 \
+  --language_eval 1 \
+  --beam_size 2 \
+  --batch_size 100 \
+  --split test \
+  --dataset ucm
